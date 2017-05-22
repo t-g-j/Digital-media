@@ -1,0 +1,17 @@
+#include "../include/pathplanning/pathplanningControl.h"
+
+pathplanningControl::pathplanningControl()
+{
+    current = nullptr;
+}
+
+pathplanningControl::~pathplanningControl()
+{
+
+}
+
+
+void pathplanningControl::readMsg(const feature_detection::coord::ConstPtr &msg)
+{
+    current = msgRecieved;
+}

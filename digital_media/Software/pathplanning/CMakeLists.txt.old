@@ -1,0 +1,46 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(pathplanning)
+
+## Find catkin macros and libraries
+## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
+## is used, also find other catkin packages
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+  message_generation
+  sensor_msgs
+  cv_bridge
+  image_transport
+)
+
+find_package( OpenCV REQUIRED)
+
+add_message_files(
+   FILES
+   markerpose.msg
+)
+
+generate_messages(
+        DEPENDENCIES
+        std_msgs
+)
+
+catkin_package(
+	CATKIN_DEPENDS message_runtime roscpp rospy std_msgs
+	INCLUDE_DIRS include
+)
+
+
+include_directories(include
+  ${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS}
+)
+
+
+add_executable(astarPP src/astarPP.cpp)
+target_link_libraries(astarPP ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+add_dependencies(astarPP pathplanning_generate_messages_cpp) #Og den her...
+
+
+
+

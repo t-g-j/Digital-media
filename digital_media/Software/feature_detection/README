@@ -1,0 +1,7 @@
+Maintainer Thor G Jensen.
+Run the node with rosrun feature_detection feature_detection_v1_3.py
+
+optinally start the rqt_graph to get a better view of how this nodes relates to MarkerLocator by Henrik midtiby.
+
+Node is written to take markerlocators as corners and targets.
+Then locate any red in the picture and send the proccessed image to an pathfinding node.

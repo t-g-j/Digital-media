@@ -1,0 +1,9 @@
+This is theta: -3.06686
+width: 481
+ height: 561
+PixelsToMeters factor: 0.0052079
+Printing map with width: 481 and height: 561
+Waypoints in meters:: 0.0334932, 0.0288272 hypotenuse: 0.0441905 i: 0
+Waypoints in meters:: 0.192135, 2.14772 hypotenuse: 2.1563 i: 1
+entered the for loop
+

@@ -1,0 +1,9 @@
+About to check out dat publish
+This is theta: -1.52066
+width: 398
+ height: 560
+PixelsToMeters factor: 0.00629397
+Printing map with width: 398 and height: 560
+Waypoints in meters:: 0.0858195, 0.0776181 hypotenuse: 0.115713 i: 0
+Waypoints in meters:: 2.49967, -0.0435096 hypotenuse: 2.50005 i: 1
+

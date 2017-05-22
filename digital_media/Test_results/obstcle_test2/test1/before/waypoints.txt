@@ -1,0 +1,8 @@
+This is theta: -0.0767065
+width: 479
+ height: 559
+PixelsToMeters factor: 0.00522965
+Printing map with width: 479 and height: 559
+Waypoints in meters:: 0.00561502, -0.00481351 hypotenuse: 0.00739584 i: 0
+Waypoints in meters:: 1.52818, 0.112207 hypotenuse: 1.53229 i: 1
+
